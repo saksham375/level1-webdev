@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height:100%;
+    width:100%;
+}
+h1{
+    color: white;
+    background-color: pink;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 100px;
+    font-weight: 500;
+}
+#box{
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+#parent{
+    height: 100%;
+    width: 100%;
+    margin-top: 20%;
+    background-color: lightcoral;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#child1{
+    height: 200px;
+    width: 200px;
+    background-color: bisque;
+}
+#child2{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(85, 189, 121);
+}
+#child3{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(39, 113, 183);
+}

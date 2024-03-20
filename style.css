@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+h1{
+    color: pink;
+    background-color:indigo;
+    font-size: 100px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 100;
+    text-align: center;
+}
+#box{
+    height: 500px;
+    width: 500px;
+    background-color:aqua;
+    margin-left: 50px;
+}
+#myname{
+    height: 20px;
+    width: 200px;
+    color: blueviolet;
+    text-align: center;
+    
+}
